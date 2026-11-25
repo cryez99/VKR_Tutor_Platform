@@ -62,14 +62,14 @@ usecase-beta
   actor Student("Ученик")
   actor AI("Внешний AI-сервис")
 
-  systemBoundary "Tutor Platform" 
+  systemBoundary "VKR_Tutor Platform" 
     UC01("UC-01 FR-01 Авторизация")
     UC02("UC-02 FR-02 Добавление ученика")
     UC03("UC-03 FR-03 Обмен сообщениями")
     UC04("UC-04 FR-04 Отправка ссылки на урок")
     UC05("UC-05 FR-05 Создание ДЗ")
     UC06("UC-06 FR-06 Отправка решения")
-    UC07("UC-07 FR-07 AI-проверка ДЗ")
+    UC07("UC-07 FR-07 Проверка ДЗ")
     UC08("UC-08 FR-08 Корректировка оценки")
     UC09("UC-09 FR-09 Просмотр статистики")
   end
@@ -86,7 +86,7 @@ usecase-beta
   Tutor --> UC09
   Student --> UC09
 
-  UC06 ..> : include UC07
+  UC08 ..> : include UC07
   UC07 --> AI
 ```
 
