@@ -34,7 +34,7 @@
 
 ### Диаграмма
 
-![System Context](./docs/c4/01-context.png)
+![System Context](./c4/01-context.png)
 
 ### Описание элементов
 
@@ -61,7 +61,7 @@
 
 ### Диаграмма
 
-![Containers](./docs/c4/02-containers.png)
+![Containers](./c4/02-containers.png)
 
 ### Описание контейнеров
 
@@ -85,7 +85,7 @@
 
 ### Диаграмма
 
-![Components API](./docs/c4/03-components-api.png)
+![Components API](./c4/03-components-api.png)
 
 ### Описание компонентов
 
@@ -110,7 +110,7 @@
 
 ### Диаграмма
 
-![Components Worker](./docs/c4/04-components-worker.png)
+![Components Worker](./c4/04-components-worker.png)
 
 ### Описание компонентов
 
